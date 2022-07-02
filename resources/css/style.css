@@ -1,0 +1,29 @@
+:root {
+--primary-blue:#4287F5;
+--second-blue:#C5D4EB;
+--third-blue:#2657A3;
+--gold:#A47552;
+--white: #ffffff;
+--turquise :#73b7ff;
+}
+
+header, footer{
+    background-color: var(--third-blue);
+}
+h4{
+color: var(--gold);
+border-bottom: 2px solid var(--gold);
+
+}
+h2,h3 ,span{
+    color:var(--white);
+}
+body{
+    background-color: var(--white);
+}
+#work{
+    background-color: var(--second-blue);
+}
+
+
+
