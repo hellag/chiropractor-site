@@ -7,8 +7,30 @@
 --turquise :#73b7ff;
 }
 
+@font-face {
+    font-family: raleway;
+    src: url(../libs/Raleway/Raleway-VariableFont_wght.ttf) format('truetype');
+}
+
+body{
+    background-color: var(--white);
+    font-family: raleway;
+}
+
 header, footer{
     background-color: var(--third-blue);
+    color: white;
+}
+.bgimage{
+    /* content: ""; */
+    background-image: url('../img/IMG_20210308_173120.jpg');   
+    background-color: var(--third-blue);
+    background-size: cover;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    display: block;
+    color: var(--third-blue);
 }
 h4{
 color: var(--gold);
@@ -18,12 +40,36 @@ border-bottom: 2px solid var(--gold);
 h2,h3 ,span{
     color:var(--white);
 }
-body{
-    background-color: var(--white);
-}
+
 #work{
     background-color: var(--second-blue);
 }
+.card img{
+    max-height: 200px;
+}
+.profile-picture{
+    width: 150px;
+    height: 150px;
+}
+.bgblue{
+    background-color: var(--third-blue);
+    color: white;
+}
+.bgwhite{
+    background-color: var(--white);
+}
 
+.card-text{
+    font-size: 12px;
+}
 
+.about-text{
+    font-size: 14px;
+}
 
+.skelly{
+
+    background-image: url('../img/skelly.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
