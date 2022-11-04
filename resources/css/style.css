@@ -2,6 +2,7 @@
 --primary-blue:#4287F5;
 --second-blue:#C5D4EB;
 --third-blue:#2657A3;
+--fourth-blue:#377adf;
 --gold:#A47552;
 --white: #ffffff;
 --turquise :#73b7ff;
@@ -40,6 +41,10 @@ border-bottom: 2px solid var(--gold);
 h2,h3 ,span{
     color:var(--white);
 }
+h5{
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+}
 
 #work{
     background-color: var(--second-blue);
@@ -60,7 +65,7 @@ h2,h3 ,span{
 }
 
 .card-text{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .about-text{
