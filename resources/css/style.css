@@ -2,7 +2,7 @@
 --primary-blue:#4287F5;
 --second-blue:#C5D4EB;
 --third-blue:#2657A3;
---fourth-blue:#377adf;
+--fourth-blue:#a1c4f9;
 --gold:#A47552;
 --white: #ffffff;
 --turquise :#73b7ff;
@@ -132,3 +132,11 @@ h5{
     width: 270px;
   }
 /* Flip things ends */
+#therapy-0,#therapy-1,#therapy-2{
+    margin-bottom:3px;
+}
+/* .card-body{
+    color: #fff;
+    font-weight: 20px;
+    background-color: var(--fourth-blue);
+} */
